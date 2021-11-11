@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Brainfuck.Compiler": {
+      "commandName": "Project",
+      "commandLineArgs": "ee.txt ee.efe"
+    }
+  }
+}

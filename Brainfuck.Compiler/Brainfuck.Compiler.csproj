@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>BrainfuckCompiler</AssemblyName>
+    <RootNamespace>Brainfuck.Com</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Brainfuck.Core\Brainfuck.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ee.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

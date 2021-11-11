@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BrainfuckMachineCompiler
+namespace Brainfuck.IDE
 {
     public interface IAssembler
     {

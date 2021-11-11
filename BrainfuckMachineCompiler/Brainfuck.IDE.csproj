@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Assembler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Assembler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Brainfuck.Compiler\Brainfuck.Compiler.csproj" />
+    <ProjectReference Include="..\Brainfuck.Core\Brainfuck.Core.csproj" />
+  </ItemGroup>
+
+</Project>
